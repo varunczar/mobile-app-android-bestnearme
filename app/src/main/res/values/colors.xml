@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#101010</color>
+    <color name="colorPrimaryDark">#080808</color>
+    <color name="colorAccent">#FFC013</color>
+    <color name="colorBackground">#F4F4F1</color>
+
+    <color name="colorProgress">#FFC013</color>
+    <color name="colorProgressBackground">#2669E0FB</color>
+    <color name="colorProgressBackground02">#26FFFFFF</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorSemiTransparentGrey">#08111111</color>
+    <color name="colorDivider">#EFEFEF</color>
+    <color name="colorChatButton">#ECEBEE</color>
+    <color name="colorWhiteDefault">#F4F3F5</color>
+    <color name="colorWhiteSemiTransparent">#B0FFFFFF</color>
+    <color name="colorWhiteSemiTransparent02">#BFFFFFFF</color>
+    <color name="colorBlackSemiTransparent">#59000000</color>
+    <color name="colorBlack">#111111</color>
+    <color name="colorGrey">#adadad</color>
+    <color name="colorGreyTransparent">#80d3d3d3</color>
+    <color name="colorGreyBorder">#e0e0e0</color>
+    <color name="colorLightGrey">#E8E8E8</color>
+    <color name="colorLighterGrey">#C6C6C6</color>
+    <color name="colorSubtitleGrey">#999999</color>
+    <color name="colorSubtitleSemiTransparentWhite">#BFFFFFFF</color>
+    <color name="colorFiller">#CDCDCD</color>
+    <color name="colorTextHint">#999999</color>
+    <color name="colorHighlight">#69E0FB</color>
+    <color name="colorCircleBorder">#2CB4F6</color>
+    <color name="colorBorder">#ebebeb</color>
+    <color name="colorError">#EB0F0F</color>
+    <color name="colorLightGreen">#E1F1EB</color>
+    <color name="colorLightBlue">#E4EDF5</color>
+    <color name="colorBlue">#00A1F0</color>
 </resources>

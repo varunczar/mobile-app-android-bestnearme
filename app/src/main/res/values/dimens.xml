@@ -1,0 +1,62 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="fab_elevation">8dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_elevation_press">12dp</dimen>
+    <dimen name="fab_size">56dp</dimen>
+
+    <dimen name="statusbar_size">24dp</dimen>
+
+    <dimen name="cardview_toolbar_spacer">16dp</dimen>
+
+    <dimen name="toolbar_double_height">112dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="appbar_header_height">256dp</dimen>
+    <dimen name="activity_margin_half">8dp</dimen>
+    <dimen name="activity_margin_content">24dp</dimen>
+    <dimen name="card_elevation">10dp</dimen>
+    <dimen name="cell_padding_half">4dp</dimen>
+    <dimen name="cell_padding">8dp</dimen>
+    <dimen name="cell_padding_profile">10dp</dimen>
+    <dimen name="cell_padding_single">12dp</dimen>
+    <dimen name="cell_padding_double">14dp</dimen>
+    <dimen name="cell_padding_double_02">24dp</dimen>
+    <dimen name="cell_padding_triple">28dp</dimen>
+    <dimen name="cell_padding_triple_02">36dp</dimen>
+    <dimen name="cell_padding_quadruple">56dp</dimen>
+    <dimen name="cell_padding_quintuple">112dp</dimen>
+    <dimen name="cell_margin_quadruple">160dp</dimen>
+
+    <dimen name="layout_categories_width">138dp</dimen>
+    <dimen name="layout_categories_height">200dp</dimen>
+    <dimen name="layout_categories_icon">45dp</dimen>
+
+
+    <dimen name="card_radius">16dp</dimen>
+    <dimen name="radio_radius">29dp</dimen>
+    <dimen name="card_padding">16dp</dimen>
+    <dimen name="card_padding_small">10dp</dimen>
+    <dimen name="card_padding_xsmall">8.5dp</dimen>
+
+    <dimen name="text_size_logo">60sp</dimen>
+    <dimen name="text_size_title_xxxlarge">55sp</dimen>
+    <dimen name="text_size_title_xxlarge">36sp</dimen>
+    <dimen name="text_size_title_xlarge">32sp</dimen>
+    <dimen name="text_size_title_large">24sp</dimen>
+    <dimen name="text_size_title">20sp</dimen>
+    <dimen name="text_size_subtitle">14sp</dimen>
+
+    <dimen name="text_size_small">10sp</dimen>
+    <dimen name="text_size_medium">12sp</dimen>
+    <dimen name="text_size_large">14sp</dimen>
+    <dimen name="text_size_xlarge">16sp</dimen>
+    <dimen name="text_size_xxlarge">18sp</dimen>
+    <dimen name="text_size_xxxlarge">20sp</dimen>
+
+    <dimen name="width_image_hero">80dp</dimen>
+    <dimen name="height_image_hero">120dp</dimen>
+    <dimen name="height_place">190dp</dimen>
+</resources>
