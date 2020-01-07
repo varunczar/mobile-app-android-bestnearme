@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#101010</color>
+    <color name="colorSecondary">#FFFFFF</color>
     <color name="colorPrimaryDark">#080808</color>
     <color name="colorAccent">#FFC013</color>
+    <color name="colorAccentSemiTransparent">#E6FFC013</color>
+    <color name="colorPastel">#FF9F4C</color>
     <color name="colorBackground">#F4F4F1</color>
+
+    <color name="colourGreen">#00994C</color>
+    <color name="colourRed">#CC0000</color>
 
     <color name="colorProgress">#FFC013</color>
     <color name="colorProgressBackground">#2669E0FB</color>

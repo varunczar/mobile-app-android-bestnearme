@@ -19,7 +19,7 @@
     <dimen name="activity_margin_content">24dp</dimen>
     <dimen name="card_elevation">10dp</dimen>
     <dimen name="cell_padding_half">4dp</dimen>
-    <dimen name="cell_padding">8dp</dimen>
+    <dimen name="cell_padding">@dimen/_8sdp</dimen>
     <dimen name="cell_padding_profile">10dp</dimen>
     <dimen name="cell_padding_single">12dp</dimen>
     <dimen name="cell_padding_double">14dp</dimen>

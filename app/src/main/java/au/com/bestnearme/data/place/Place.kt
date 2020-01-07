@@ -1,5 +1,7 @@
 package au.com.bestnearme.data.place
 
+import au.com.bestnearme.data.placedetails.OpeningHours
+import au.com.bestnearme.data.placedetails.PhotosItem
 import com.google.gson.annotations.SerializedName
 
 data class Place(@SerializedName("types")
@@ -23,7 +25,7 @@ data class Place(@SerializedName("types")
                  @SerializedName("name")
                  val name: String = "",
                  @SerializedName("opening_hours")
-                 val openingHours: OpeningHours,
+                 val openingHours: OpeningHours?,
                  @SerializedName("geometry")
                  val geometry: Geometry,
                  @SerializedName("vicinity")

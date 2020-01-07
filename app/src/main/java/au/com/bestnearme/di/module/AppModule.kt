@@ -8,7 +8,7 @@ import javax.inject.Singleton
 @Module
 class AppModule(var application: Application) {
 
-    lateinit var applicationInst: Application
+    var applicationInst: Application
 
     init {
         applicationInst = application

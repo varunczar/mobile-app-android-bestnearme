@@ -8,6 +8,20 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:ambientShadowAlpha">0.09</item>
         <item name="android:spotShadowAlpha">0.06</item>
+        <item name="android:windowDisablePreview">true</item>
+
+        <!-- enable window content transitions -->
+        <item name="android:windowActivityTransitions">true</item>
+
+        <!-- specify enter and exit transitions -->
+        <item name="android:windowEnterTransition">@transition/explode</item>
+        <item name="android:windowExitTransition">@transition/explode</item>
+
+        <!-- specify shared element transitions -->
+        <item name="android:windowSharedElementEnterTransition">
+            @transition/change_image_transform</item>
+        <item name="android:windowSharedElementExitTransition">
+            @transition/change_image_transform</item>
     </style>
     <style name="Logo">
         <item name="android:textAllCaps">false</item>
@@ -17,7 +31,11 @@
     </style>
     <style name="Title">
         <item name="android:textAllCaps">false</item>
-        <item name="android:textSize">@dimen/text_size_title</item>
+        <item name="android:textSize">@dimen/_16sdp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+    <style name="TitleDark" parent="Title">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
     </style>
     <style name="Title.Large">
         <item name="android:textSize">@dimen/text_size_title_large</item>
@@ -26,6 +44,7 @@
     <style name="Text">
         <item name="android:textSize">@dimen/text_size_small</item>
         <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
     </style>
     <style name="Text.Medium">
         <item name="android:textSize">@dimen/text_size_medium</item>
@@ -36,11 +55,48 @@
     <style name="Text.XLarge">
         <item name="android:textSize">@dimen/text_size_xlarge</item>
     </style>
+    <style name="Text.XLarge.Bold">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
     <style name="Text.XXLarge">
-        <item name="android:textSize">@dimen/text_size_xxlarge</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+    </style>
+    <style name="Text.XXLarge.White">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+    <style name="Text.XXLarge.White.Bold">
+        <item name="android:fontFamily">@font/raleway_semibold</item>
+    </style>
+    <style name="Text.XLarge.Italic">
+        <item name="android:fontFamily">@font/roboto_lightitalic</item>
+    </style>
+    <style name="Text.XXLarge.Italic">
+        <item name="android:fontFamily">@font/roboto_lightitalic</item>
     </style>
     <style name="Text.XXXLarge">
-        <item name="android:textSize">@dimen/text_size_xxxlarge</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+    <style name="Text.XXXLarge.Pastel">
+        <item name="android:textColor">@color/colorPastel</item>
+    </style>
+    <style name="Text.XXXLarge.Bold">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+    <style name="Text.XXXLarge.White">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+    <style name="Text.XXXXLarge">
+        <item name="android:textSize">@dimen/_16sdp</item>
+    </style>
+    <style name="Text.XXXXXLarge">
+        <item name="android:textSize">@dimen/_18sdp</item>
+    </style>
+    <style name="Text.XXXXXLarge.White">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Text.Large.Light">
+        <item name="android:fontFamily">@font/roboto_light</item>
     </style>
 
     <style name="Title.XLarge">
@@ -65,6 +121,7 @@
         <item name="android:textSize">@dimen/text_size_title_large</item>
     </style>
     <style name="Subtitle">
+        <item name="android:fontFamily">@font/roboto_regular</item>
         <item name="android:textColor">@color/colorGrey</item>
         <item name="android:textAllCaps">false</item>
         <item name="android:textSize">@dimen/text_size_medium</item>
@@ -72,7 +129,52 @@
     <style name="Subtitle.Large">
         <item name="android:textColor">@color/colorGrey</item>
         <item name="android:textAllCaps">false</item>
-        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textSize">@dimen/_11sdp</item>
+    </style>
+    <style name="Subtitle.XLarge">
+        <item name="android:textColor">@color/colorGrey</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+    <style name="Subtitle.XLarge.White">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+    <style name="Subtitle.XXLarge">
+        <item name="android:textColor">@color/colorGrey</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_16sdp</item>
+    </style>
+
+    <style name="Rating" parent="Text.XXXLarge">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+    <style name="RatingInverse" parent="Text.XXXLarge">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="RatingLarge" parent="Text.XXXXLarge">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="DefaultButton">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:elevation">30dp</item>
+        <item name="android:background">@drawable/drawable_button</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+
+    </style>
+
+    <style name="DefaultButton.White">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:background">@drawable/drawable_button_white</item>
+
     </style>
 
 </resources>
