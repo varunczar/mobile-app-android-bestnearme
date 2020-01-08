@@ -41,7 +41,7 @@ class NetModule {
         return Retrofit.Builder().addConverterFactory(GsonConverterFactory.create(gson))
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                 .client(okHttpClient)
-                .baseUrl("https://wgvypggik8.execute-api.us-east-2.amazonaws.com/uat/").build()
+                .baseUrl(BuildConfig.WEB_SERVICE_URL).build()
     }
 
 

@@ -21,11 +21,4 @@ class MyApplication : Application() {
         applicationComponent.inject(this)
     }
 
-    companion object {
-        private var instance: MyApplication? = null
-
-        fun getContext(): Context {
-            return instance?.getApplicationContext()!!
-        }
-    }
 }

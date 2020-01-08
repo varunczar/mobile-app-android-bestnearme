@@ -10,7 +10,7 @@ import retrofit2.http.Path
 interface INetworkApi {
 
 
-    @GET(Endpoints.places+"{latitude}/{longitude}/1500/{category}")
+    @GET(Endpoints.places+"{latitude}/{longitude}/1000/{category}")
     fun getPlaces(
         @Path("latitude") latitude : Double,
         @Path("longitude") longitude : Double,

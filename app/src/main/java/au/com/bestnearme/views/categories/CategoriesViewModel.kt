@@ -24,7 +24,6 @@ class CategoriesViewModel : ViewModel() {
 
     init {
         DaggerApplicationComponent.create().inject(this)
-        loading.value=false
     }
 
 
