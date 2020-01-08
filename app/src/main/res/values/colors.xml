@@ -22,6 +22,7 @@
     <color name="colorWhiteSemiTransparent">#B0FFFFFF</color>
     <color name="colorWhiteSemiTransparent02">#BFFFFFFF</color>
     <color name="colorBlackSemiTransparent">#59000000</color>
+    <color name="colorBlackSemiTransparent02">#99000000</color>
     <color name="colorBlack">#111111</color>
     <color name="colorGrey">#adadad</color>
     <color name="colorGreyTransparent">#80d3d3d3</color>

@@ -12,7 +12,7 @@
                    android:contentDescription="@string/content_desc_background"
         />
         <View android:layout_width="match_parent" android:layout_height="match_parent"
-              android:background="@color/colorAccentSemiTransparent"/>
+              android:background="@color/colorBlackSemiTransparent02"/>
         <TextView
                 android:layout_marginTop="@dimen/_25sdp"
                 android:id="@+id/text_view_logo"
@@ -59,7 +59,7 @@
                 android:paddingRight="@dimen/cell_padding"
                 android:layout_marginBottom="@dimen/_12sdp"
                 android:id="@+id/button_turn_on_location"
-                style="@style/DefaultButton.White"
+                style="@style/DefaultButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
